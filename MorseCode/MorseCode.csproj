@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Beeper.cs" />
+    <Compile Include="IMorsePlayer.cs" />
     <Compile Include="MorseAlphabet.cs" />
+    <Compile Include="MorseFacade.cs" />
+    <Compile Include="MorseTranslator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
